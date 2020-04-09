@@ -1,0 +1,64 @@
+#products {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 3vw;
+ }
+  
+#products td, #products th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#products tr:nth-child(even){background-color: #7fb3e49c;}
+
+#products tr:hover {background-color: #ddd;}
+
+#products th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #aa7ae4b5;
+color: white;
+}
+
+td img {
+    width: 150px;
+}
+
+
+.addItem {
+    width: 90%;
+    margin: 5vw;
+    max-width: 300px;
+}
+
+.addItemForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+input {
+    padding: 10px;
+}
+select {
+    padding: 10px;
+}
+
+h3 {
+    color: violet;
+}
+
+input[type=submit]{
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #43e269bf;
+    border: 0;
+}
+

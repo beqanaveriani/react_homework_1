@@ -1,0 +1,20 @@
+.app-header {
+    background-color: #d5e2e254;
+    max-height: 7vw;
+}
+
+.app-logo-product {
+    width: 4vw;
+    height: 4vw;
+}
+
+.app-logo-space{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2 {
+    padding-left: 1vw;
+    color: #dbd8e2fa;;
+}
